@@ -7,7 +7,7 @@ It engages your ability to manipulate and evaluate data stored in lists and dict
 def relationship_status(from_member, to_member, social_graph):
     '''
     Item 1.
-    Relationship Status. 6 points.
+    Relationship Status. 10 points.
 
     Let us pretend that you are building a new app.
     Your app supports social media functionality, which means that users can have
@@ -45,7 +45,7 @@ def relationship_status(from_member, to_member, social_graph):
 def tic_tac_toe(board):
     '''
     Item 2.
-    Tic Tac Toe. 7 points.
+    Tic Tac Toe. 10 points.
 
     Tic Tac Toe is a common paper-and-pencil game. 
     Players must attempt to successfully draw a straight line of their symbol across a grid.
@@ -72,7 +72,7 @@ def tic_tac_toe(board):
 def eta(first_stop, second_stop, route_map):
     '''
     Item 3.
-    ETA. 7 points.
+    ETA. 10 points.
 
     A shuttle van service is tasked to travel along a predefined circlar route.
     This route is divided into several legs between stops.

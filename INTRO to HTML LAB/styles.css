@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;600;800&family=Koulen&family=Krub&display=swap');
+
+/* Navigation Bar */
+header {
+    z-index: 2;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px 20px;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+  }
+
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Jetbrains Mono', monospace;
+    font-weight: 600;
+    color: white;
+}
+
+li a:hover{
+    text-decoration: underline white;
+}
+
+li.upleft{
+    float: right;
+    padding: 20px 16px;
+}
+
+/* Footer */
+footer p{
+    text-align: center;
+    font-family: 'Jetbrains Mono', monospace;
+    font-weight: 100;
+    font-size: 20px;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    left: 45%;
+    position: absolute;
+    bottom: 0px;
+}
+
+/* Index */
+.greeting h1{
+    font-family: 'Krub';
+    font-size: 128px;
+    text-align: center;
+    color: white;
+    margin: 130px 0px 0px 0px;
+}
+
+.greeting h2{
+    font-family: 'Krub';
+    font-size: 64px;
+    text-align: center;
+    color: white;
+    margin: 0px 0px 0px 0px;
+}
+
+.home{
+    background-image: url("index.jpg");
+}
+
+body {
+    background-color: #725748;
+}
+
+/* Empty pages */
+.sumn {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    top: 0;
+    overflow-x: hidden;
+}
+
+.left {
+    background-image: url("sidehoe.jpg");
+    background-size: cover;
+    left: 0;
+    z-index: -1;
+}
+
+.right {
+    right: 0;
+    z-index: -1;
+}
+
+.normalfo {
+    background-color: #F0E7DC;
+    padding: 30px 40px 40px 40px;
+    position: absolute;
+    width: 70%;
+    margin: 120px 40px;
+}
+
+.normalfo h1 {
+    font-family: 'Koulen';
+    font-size: 48px;
+    text-align: left;
+    color: #6C3E10;
+    margin: 0px;
+}
+
+.normalfo p {
+    font-family: 'Krub';
+    font-size: 20px;
+    text-align: left;
+    color: #6C3E10;
+    margin: 0px;
+}
+
+.div {
+    padding: 20px 40px;
+    position: absolute;
+    width: 70%;
+    margin: 120px 40px;
+}
+
+.info {
+    text-align: center;
+    margin-top: 80px;
+    overflow: scroll;
+}
+
+.info h1{
+    font-family: 'Koulen';
+    font-size: 48px;
+    color: white;
+    margin: 10px;
+}
+
+/* Products Page */
+.card{
+    background-color: #F0E7DC;
+}
+
+.myork {
+    width: 100%; 
+}
+
+.card a{
+    text-decoration: none;
+    color: #6C3E10;
+}
+
+.card a:hover{
+    text-decoration: none;
+    color: #291603;
+}
+
+
+.smol {
+    background-image: url("sidehoe.jpg");
+    background-size: cover;
+    left: 0;
+    width: 30%;
+    z-index: -1;
+}
+
+.big {
+    right: 0;
+    width: 70%;
+}
+
+
+.griditems {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px 40px;
+    text-align: center;
+    z-index: 4;
+}
+
+.Productname  {
+    font-family: 'Koulen';
+    font-size: 20px;
+    color: #6C3E10;
+    z-index: 4;
+}
+
+.Price  {
+    font-family: 'Krub';
+    font-size: 16px;
+    color: #6C3E10;
+}
+
+
+table{
+    padding: 4px;
+    margin: 4px 8px 12px 8px;
+    z-index: 4;
+}
+
+
+/* PER Product Page */
+
+.americano {
+    background-image: url("americano.jpg");
+    background-size: cover;
+    left: 0;
+    z-index: -1;
+}
+
+.latte {
+    background-image: url("latte.jpg");
+    background-size: cover;
+    left: 0;
+    z-index: -1;
+}
+
+.irish {
+    background-image: url("irish.jpg");
+    background-size: cover;
+    left: 0;
+    z-index: -1;
+}
+
+.matcha {
+    background-image: url("matcha.jpg");
+    background-size: cover;
+    left: 0;
+    z-index: -1;
+}
+
+.toffee {
+    background-image: url("toffee.jpg");
+    background-size: cover;
+    left: 0;
+    z-index: -1;
+}

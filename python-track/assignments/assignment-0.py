@@ -26,3 +26,6 @@ def three_number_average(x, y, z):
         the average of x, y, and z
     '''
     # Write your code below this line
+    sum = float(x) + float(y) + float(z)
+    answer = sum/3
+    return answer

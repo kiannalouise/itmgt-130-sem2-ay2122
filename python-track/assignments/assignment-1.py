@@ -26,6 +26,13 @@ def factorial(x):
         the factorial of the argument
     '''
     # Write your code below this line
+    i = x - 1
+    while (i <= x):
+        if i == 0:
+            return x
+    else:
+            x = x * i
+            i = i-1
 
 def classify_grade(number_grade):
     '''Item 2.
@@ -52,6 +59,22 @@ def classify_grade(number_grade):
         the letter grade equivalent of the number grade.
     '''
     # Write your code below this line
+        x = float(number_grade)
+
+    if x >= 92 and x <=100:
+        return "A"
+    elif x >= 86 and x < 92:
+        return "B+"
+    elif x >= 80 and x < 86:
+        return "B"
+    elif x >= 74 and x < 80:
+        return "C+"
+    elif x >= 67 and x < 74:
+        return "C"
+    elif x >= 60 and x < 67:
+        return "D"
+    else:
+        return "F"
 
 def average_weight(item_quantity_1, item_weight_1, item_quantity_2, item_weight_2):
     '''Item 3.
@@ -78,6 +101,17 @@ def average_weight(item_quantity_1, item_weight_1, item_quantity_2, item_weight_
         the weighted average weight of one item.
     '''
     # Write your code below this line
+    w = int(item_quantity_1)
+    x = float(item_weight_1)
+    y = int(item_quantity_2)
+    z = float(item_weight_2)
+
+    firstbag = (w*x)
+    secondbag = (y*z)
+
+    weighted_ave = float((firstbag + secondbag)/(w+y))
+
+    return weighted_ave
 
 def string_sum(string):
     '''Item 4.
@@ -99,7 +133,15 @@ def string_sum(string):
         the sum of the digits contained in the string.
     '''
     # Write your code below this line
+    x = 0
+    for i in string:
+        try:
+            x = int(i) + x
+        except:
+            pass
+    return x
 
+import math
 def distance(x_1, y_1, x_2, y_2):
     '''Item 5.
     Distance. 3 points.
@@ -130,6 +172,10 @@ def distance(x_1, y_1, x_2, y_2):
         the distance between the two coordinates
     '''
     # Write your code below this line
+    x = abs(x_1 - x_2)
+    y = abs(y_1 - y_2)
+    return math.sqrt(x + y)
+    
 
 def make_change(amount):
     '''Item 6.

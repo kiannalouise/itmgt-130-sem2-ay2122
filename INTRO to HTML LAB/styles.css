@@ -243,3 +243,10 @@ table{
     left: 0;
     z-index: -1;
 }
+
+.back {
+    text-decoration: none;
+    font-family: 'Krub';
+    font-size: 16px;
+    color: #6C3E10;
+}
